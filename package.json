@@ -1,0 +1,19 @@
+{
+  "name": "eslint-plugin-pinterest",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --harmony lib/**/__tests__/*_test.js"
+  },
+  "devDependencies": {
+    "eslint": "~1.2.0",
+    "mocha": "^2.4.5"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin"
+  ],
+  "dependencies": {
+    "lodash": "^4.2.1"
+  }
+}
