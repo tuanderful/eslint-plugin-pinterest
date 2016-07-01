@@ -1,9 +1,9 @@
 {
   "name": "eslint-plugin-pinterest",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "main": "lib/index.js",
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha --harmony lib/**/__tests__/*_test.js"
+    "test": "./node_modules/mocha/bin/mocha --harmony lib/**/__tests__/*_test.js --reporter dot"
   },
   "devDependencies": {
     "eslint": "~2.5.3",
